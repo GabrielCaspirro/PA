@@ -1,22 +1,22 @@
 algoritmo "OlaMundo!"
-// Função : Meu primeiro algoritmo
+// FunÃ§Ã£o : Meu primeiro algoritmo
 // Autor :  Gabriel Caspirro Demarchi
 // Data : 23/02/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 
  Nome: caractere
 
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 // entrada
  escreva("Digite o seu nome: ")
  leia(nome)
 
- escreva(Nome, " Olá Mundo!!")
+ escreva(Nome, " OlÃ¡ Mundo!!")
  
- //saída
+ //saÃ­da
 fimalgoritmo
 
 
