@@ -1,19 +1,19 @@
 algoritmo "Retangulo"
-// FunÁ„o : Calcular a ·rea e o perrÌmetro dwe um ret„ngulo
+// Fun√ß√£o : Calcular a √°rea e o per√≠metro dwe um ret√£ngulo
 // Autor :  Gabriel Caspirro Demarchi
 // Data : 09/03/2023
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
  lado1, lado2, ResulA, ResulB: real
  nome: caractere
 inicio
-// SeÁ„o de Comandos
+// Se√ß√£o de Comandos
 //inicio
 escreval("Digite seu nome: ")
 leia(nome)
-escreval("Vamos calcular a ·rea e o perÌmetro do ret‚ngulo!!")
+escreval("Vamos calcular a √°rea e o per√≠metro do ret√¢ngulo!!")
 escreval("--------------------------------------------------")
-escreval("Digite os lados dos ret‚ngulos: ")
+escreval("Digite os lados dos ret√¢ngulos: ")
 leia(lado1)
 leia(lado2)
 //processo
@@ -21,5 +21,5 @@ ResulA <- lado1*lado2
 ResulB <- (lado1+lado2)*2
 //saida
 escreval("---------------------RESULTADO----------------------")
-escreval(nome, ", a ·rea do Ret‚ngulo È: ", ResulA," e o PerÌmetro do Ret‚ngulo È: ",ResulB)
+escreval(nome, ", a √°rea do Ret√¢ngulo √©: ", ResulA," e o Per√≠metro do Ret√¢ngulo √©: ",ResulB)
 fimalgoritmo
