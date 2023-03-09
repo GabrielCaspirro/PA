@@ -1,5 +1,5 @@
 algoritmo "Retangulo"
-// Função : Calcular a área e o perímetro dwe um retãngulo
+// Função : Calcular a área e o perímetro de um retãngulo
 // Autor :  Gabriel Caspirro Demarchi
 // Data : 09/03/2023
 // Seção de Declarações 
