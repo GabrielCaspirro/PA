@@ -1,13 +1,13 @@
 algoritmo "Desfile"
-// Função :  Ganhadora do disfile
+// FunÃ§Ã£o :  Ganhadora do disfile
 // Autor :  Gabriel Caspirro Demarchi
 // Data : 01/06/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nota, nota2, nota3, nota4: inteiro
 resul, resul2, resul3: inteiro
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreval("Jurado 1, digite seu voto: ")
 escreval("[10] Ciclana")
 escreval("[20] Fulana")
@@ -37,7 +37,7 @@ escolha(nota)
   caso 30
        resul3 <- resul3 + 1
   outrocaso
-           escreval("Escolha inválida")
+           escreval("Escolha invÃ¡lida")
 fimescolha
 
 escolha(nota2)
@@ -48,7 +48,7 @@ escolha(nota2)
   caso 30
        resul3 <- resul3 + 1
   outrocaso
-           escreval("Escolha inválida")
+           escreval("Escolha invÃ¡lida")
 fimescolha
 
 escolha(nota3)
@@ -59,7 +59,7 @@ escolha(nota3)
   caso 30
        resul3 <- resul3 + 1
   outrocaso
-           escreval("Escolha inválida")
+           escreval("Escolha invÃ¡lida")
 fimescolha
 
 escolha(nota4)
@@ -70,11 +70,23 @@ escolha(nota4)
   caso 30
        resul3 <- resul3 + 1
   outrocaso
-           escreval("Escolha inválida")
+           escreval("Escolha invÃ¡lida")
 fimescolha
 
 escreval("A Ciclana recebeu ", resul, " votos!")
 escreval("A Fulana recebeu ", resul2, " votos!")
 escreval("A Beltrana recebeu ", resul3, " votos!")
+
+se((resul > resul2) e (resul > resul3)) entao
+  escreval("A Ciclana foi a vencedora!!")
+fimse
+
+se((resul2 > resul) e (resul2 > resul3)) entao
+  escreval("A Fulana foi a vencedora!!")
+fimse
+
+se((resul3 > resul2) e (resul3 > resul)) entao
+  escreval("A Beltrana foi a vencedora!!")
+fimse
 
 fimalgoritmo
